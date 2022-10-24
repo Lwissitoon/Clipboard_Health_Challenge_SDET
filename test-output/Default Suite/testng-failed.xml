@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Clipboard_Health_Challenge_SDET(failed)">
+    <classes>
+      <class name="Amazon_Tests">
+        <methods>
+          <include name="Cleanup"/>
+          <include name="Setup"/>
+          <include name="Tes01"/>
+        </methods>
+      </class> <!-- Amazon_Tests -->
+    </classes>
+  </test> <!-- Clipboard_Health_Challenge_SDET(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->
